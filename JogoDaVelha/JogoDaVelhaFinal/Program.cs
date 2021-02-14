@@ -93,7 +93,6 @@ namespace JogoDaVelhaFinal {
                         trace(26);
                         Console.ResetColor();
                         Console.WriteLine();
-
                     }
                 }
             }
@@ -294,4 +293,3 @@ namespace JogoDaVelhaFinal {
         }
     }
 }
-
