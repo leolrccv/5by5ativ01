@@ -93,7 +93,6 @@ namespace JogoDaVelhaFinal {
                         trace(26);
                         Console.ResetColor();
                         Console.WriteLine();
-
                     }
                 }
             }
@@ -127,7 +126,6 @@ namespace JogoDaVelhaFinal {
                     }
                 }
             }
-
         }
         static void mapaMatriz(int[,] mapa) {
             Console.WriteLine(" ESCOLHA UM NÚMERO COM BASE NO MAPA A SEGUIR\n");
@@ -233,7 +231,6 @@ namespace JogoDaVelhaFinal {
                     }
                 }
             }
-
         }
         static int verificarSituacao(string[,] matriz) {
 
@@ -291,4 +288,3 @@ namespace JogoDaVelhaFinal {
         }
     }
 }
-
