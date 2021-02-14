@@ -127,7 +127,6 @@ namespace JogoDaVelhaFinal {
                     }
                 }
             }
-
         }
         static void mapaMatriz(int[,] mapa) {
             Console.WriteLine(" ESCOLHA UM NÚMERO COM BASE NO MAPA A SEGUIR\n");
@@ -172,6 +171,12 @@ namespace JogoDaVelhaFinal {
                             pos = int.Parse(Console.ReadLine());
                         }
                         catch (FormatException) {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("\nVOCÊ DEVE DIGITAR UM NÚMERO INTEIRO!!");
+                            Console.ResetColor();
+                            continue;
+                        }
+                        catch(OverflowException){
                             Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine("\nVOCÊ DEVE DIGITAR UM NÚMERO INTEIRO!!");
                             Console.ResetColor();
@@ -233,10 +238,8 @@ namespace JogoDaVelhaFinal {
                     }
                 }
             }
-
         }
         static int verificarSituacao(string[,] matriz) {
-
             //linha 1
             if ((matriz[0, 0] == matriz[0, 1] && matriz[0, 0] == matriz[0, 2]) && matriz[0, 0] != null)
                 if (matriz[0, 0] == "X") return 1;

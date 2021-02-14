@@ -1,0 +1,7 @@
+D:\GitHub\leolrccv\5by5ativ01\JogoDaVelha\JogoDaVelhaFinal\bin\Debug\JogoDaVelhaFinal.exe.config
+D:\GitHub\leolrccv\5by5ativ01\JogoDaVelha\JogoDaVelhaFinal\bin\Debug\JogoDaVelhaFinal.exe
+D:\GitHub\leolrccv\5by5ativ01\JogoDaVelha\JogoDaVelhaFinal\bin\Debug\JogoDaVelhaFinal.pdb
+D:\GitHub\leolrccv\5by5ativ01\JogoDaVelha\JogoDaVelhaFinal\obj\Debug\JogoDaVelhaFinal.csprojAssemblyReference.cache
+D:\GitHub\leolrccv\5by5ativ01\JogoDaVelha\JogoDaVelhaFinal\obj\Debug\JogoDaVelhaFinal.csproj.CoreCompileInputs.cache
+D:\GitHub\leolrccv\5by5ativ01\JogoDaVelha\JogoDaVelhaFinal\obj\Debug\JogoDaVelhaFinal.exe
+D:\GitHub\leolrccv\5by5ativ01\JogoDaVelha\JogoDaVelhaFinal\obj\Debug\JogoDaVelhaFinal.pdb
