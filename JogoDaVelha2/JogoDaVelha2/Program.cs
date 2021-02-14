@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ConsoleApp1 {
+
+namespace JogoDaVelha2 {
     class Program {
         static void Main(string[] args) {
             string[,] matriz = new string[3, 3];
@@ -65,7 +62,7 @@ namespace ConsoleApp1 {
 
             for (int l = 0; l < 3; l++) {
                 for (int c = 0; c < 3; c++) {
-                    
+
                     while (cont < 9) {
                         if (cont % 2 == 0) {
                             Console.Write($"\n=-=-=-=-Vez do {jogador1}-=-=-=-=-=");
@@ -85,7 +82,7 @@ namespace ConsoleApp1 {
                         }
                         switch (pos) {
                             case 1:
-                                if (matriz[0, 0] != "X" && matriz[0, 0] != "O") {
+                                if (matriz[0, 0] == null) {
                                     matriz[0, 0] = xo;
                                 }
                                 else {
@@ -95,7 +92,7 @@ namespace ConsoleApp1 {
                                 break;
 
                             case 2:
-                                if (matriz[0, 1] != "X" && matriz[0, 1] != "O") {
+                                if (matriz[0, 1]== null) {
                                     matriz[0, 1] = xo;
                                 }
                                 else {
@@ -104,7 +101,7 @@ namespace ConsoleApp1 {
                                 }
                                 break;
                             case 3:
-                                if (matriz[0, 2] != "X" && matriz[0, 2] != "O") {
+                                if (matriz[0, 2] == null) {
                                     matriz[0, 2] = xo;
                                 }
                                 else {
@@ -113,7 +110,7 @@ namespace ConsoleApp1 {
                                 }
                                 break;
                             case 4:
-                                if (matriz[1, 0] != "X" && matriz[1, 0] != "O") {
+                                if (matriz[1, 0] == null) {
                                     matriz[1, 0] = xo;
                                 }
                                 else {
@@ -122,7 +119,7 @@ namespace ConsoleApp1 {
                                 }
                                 break;
                             case 5:
-                                if (matriz[1, 1] != "X" && matriz[1, 1] != "O") {
+                                if (matriz[1, 1] == null) {
                                     matriz[1, 1] = xo;
                                 }
                                 else {
@@ -131,7 +128,7 @@ namespace ConsoleApp1 {
                                 }
                                 break;
                             case 6:
-                                if (matriz[1, 2] != "X" && matriz[1, 2] != "O") {
+                                if (matriz[1, 2] == null) {
                                     matriz[1, 2] = xo;
                                 }
                                 else {
@@ -140,7 +137,7 @@ namespace ConsoleApp1 {
                                 }
                                 break;
                             case 7:
-                                if (matriz[2, 0] != "X" && matriz[2, 0] != "O") {
+                                if (matriz[2, 0] == null) {
                                     matriz[2, 0] = xo;
                                 }
                                 else {
@@ -149,7 +146,7 @@ namespace ConsoleApp1 {
                                 }
                                 break;
                             case 8:
-                                if (matriz[2, 1] != "X" && matriz[2, 1] != "O") {
+                                if (matriz[2, 1] == null) {
                                     matriz[2, 1] = xo;
                                 }
                                 else {
@@ -158,7 +155,7 @@ namespace ConsoleApp1 {
                                 }
                                 break;
                             case 9:
-                                if (matriz[2, 2] != "X" && matriz[2, 2] != "O") {
+                                if (matriz[2, 2] == null) {
                                     matriz[2, 2] = xo;
                                 }
                                 else {
@@ -228,7 +225,7 @@ namespace ConsoleApp1 {
                 else Console.WriteLine("{jogador2} GANHOU!!");
                 resp = true;
             }
-            else if (matriz[0,2] == matriz[1, 1] && matriz[0, 2] == matriz[2,0]) {
+            else if (matriz[0, 2] == matriz[1, 1] && matriz[0, 2] == matriz[2, 0]) {
                 if (matriz[0, 2] == "X")
                     Console.WriteLine("{jogador1} GANHOU!!");
                 else Console.WriteLine("{jogador2} GANHOU!!");
