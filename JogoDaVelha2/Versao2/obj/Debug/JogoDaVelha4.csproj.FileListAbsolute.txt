@@ -1,6 +1,0 @@
-D:\GitHub\leolrccv\5by5ativ01\JogoDaVelha2\Versao2\bin\Debug\Versao2.exe.config
-D:\GitHub\leolrccv\5by5ativ01\JogoDaVelha2\Versao2\bin\Debug\Versao2.exe
-D:\GitHub\leolrccv\5by5ativ01\JogoDaVelha2\Versao2\bin\Debug\Versao2.pdb
-D:\GitHub\leolrccv\5by5ativ01\JogoDaVelha2\Versao2\obj\Debug\JogoDaVelha4.csproj.CoreCompileInputs.cache
-D:\GitHub\leolrccv\5by5ativ01\JogoDaVelha2\Versao2\obj\Debug\Versao2.exe
-D:\GitHub\leolrccv\5by5ativ01\JogoDaVelha2\Versao2\obj\Debug\Versao2.pdb
