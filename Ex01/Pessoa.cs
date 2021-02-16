@@ -1,6 +1,6 @@
 ﻿using System;
 namespace Exercicio01 {
-    class Pessoa : Veiculo {
+    class Pessoa {
         public Veiculo veiculo;
         public string Cpf { get; set; }
         public string Nome { get; set; }
